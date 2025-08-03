@@ -120,8 +120,7 @@ These extracted features are vital for:
 ---
 
 ## 📝 Author
-**👨‍💻 Your Name Here**  
-Undergraduate Research | Computer Science
+**👨‍💻 EMON SHIL**  
 
 ---
 
