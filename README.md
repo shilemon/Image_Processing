@@ -1,3 +1,4 @@
+
 # 🌱 Feature Extraction on Baby Groot using OpenCV & NumPy
 
 This project demonstrates various **feature extraction techniques** on an image of **Baby Groot**, implemented using **OpenCV** and **NumPy** in **Google Colab**. The goal is to detect and visualize meaningful features like textures, edges, contours, and keypoints — which are essential in tasks like object detection, segmentation, and pattern recognition.
@@ -97,20 +98,18 @@ A robust feature extractor for object matching and recognition.
 #### 📸 Output:
 ![SIFT Keypoints](https://github.com/user-attachments/assets/a04f8803-0d18-4d3a-a21f-840a41f26057)
 
-HOG Features 
- 
-We utilized the Histogram of Oriented Gradients (HOG) method to extract features from the image. This approach captures texture and structure information by analyzing the distribution of gradient directions in localized regions of the image. 
- 
-➢	Purpose: To extract low-level features that represent the shape and texture of objects in the image, making it suitable for tasks like object detection and classification. 
-➢	Method: Utilizes a pre-trained ResNet-50 model to extract features after image preprocessing. 
-➢	Output: A feature vector that encodes the gradient-based texture and structure information of the image. 
- 
-Code:
-<img width="975" height="395" alt="image" src="https://github.com/user-attachments/assets/27e30df9-4bd7-409d-a39d-792f845cf2ab" />
+---
 
-Output:
-<img width="975" height="439" alt="image" src="https://github.com/user-attachments/assets/f33368c1-25e3-43d4-ad4d-8e8739009832" />
+### 📊 5. HOG Features
 
+We utilized the Histogram of Oriented Gradients (HOG) method to extract features from the image. This approach captures texture and structure information by analyzing the distribution of gradient directions in localized regions of the image.
+
+- **Purpose:** Extract low-level features representing shape/texture for tasks like object detection.
+- **Method:** Utilizes a pre-trained ResNet-50 model to extract features after image preprocessing.
+- **Output:** Feature vector encoding gradient-based texture and structure information.
+
+#### 📸 Output:
+![HOG Output](https://github.com/user-attachments/assets/f33368c1-25e3-43d4-ad4d-8e8739009832)
 
 ---
 
@@ -141,4 +140,3 @@ These extracted features are vital for:
 
 ## 📌 Note
 Make sure to enable GPU/CPU acceleration on Google Colab for faster computation.
-
